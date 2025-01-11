@@ -18,19 +18,19 @@ export class MainMenuScene extends Scene {
   }
 
   preload(): void {
-    this.load.image("space_star_1", "/assets/backgrounds/space_star_1.png");
-    this.load.image("space_star_2", "/assets/backgrounds/space_star_2.png");
-    this.load.image("space_star_3", "/assets/backgrounds/space_star_3.png");
-    this.load.image("space_star_4", "/assets/backgrounds/space_star_4.png");
-    this.load.image("space_star_5", "/assets/backgrounds/space_star_5.png");
-    this.load.image("space_star_6", "/assets/backgrounds/space_star_6.png");
-    this.load.image("space_star_7", "/assets/backgrounds/space_star_7.png");
-    this.load.image("space_star_8", "/assets/backgrounds/space_star_8.png");
-    this.load.image("space_star_9", "/assets/backgrounds/space_star_9.png");
-    this.load.image("player", "/assets/player/palyer_default.png");
-    this.load.image("player_damaged_1", "/assets/player/player_damaged_1.png");
-    this.load.image("player_damaged_2", "/assets/player/player_damaged_2.png");
-    this.load.image("player_damaged_3", "/assets/player/player_damaged_3.png");
+    this.load.image("space_star_1", "assets/backgrounds/space_star_1.png");
+    this.load.image("space_star_2", "assets/backgrounds/space_star_2.png");
+    this.load.image("space_star_3", "assets/backgrounds/space_star_3.png");
+    this.load.image("space_star_4", "assets/backgrounds/space_star_4.png");
+    this.load.image("space_star_5", "assets/backgrounds/space_star_5.png");
+    this.load.image("space_star_6", "assets/backgrounds/space_star_6.png");
+    this.load.image("space_star_7", "assets/backgrounds/space_star_7.png");
+    this.load.image("space_star_8", "assets/backgrounds/space_star_8.png");
+    this.load.image("space_star_9", "assets/backgrounds/space_star_9.png");
+    this.load.image("player", "assets/player/palyer_default.png");
+    this.load.image("player_damaged_1", "assets/player/player_damaged_1.png");
+    this.load.image("player_damaged_2", "assets/player/player_damaged_2.png");
+    this.load.image("player_damaged_3", "assets/player/player_damaged_3.png");
   }
 
   create(): void {
