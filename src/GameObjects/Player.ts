@@ -21,6 +21,7 @@ export class Player {
   private lastBonusLifeScore: number = 0;
   private scoreForBonusLife: number = 150;
   private isInvulnerable: boolean = false;
+  private isDead: boolean = false;
   private invulnerableTime: number = 1000; // 1 секунда неуязвимости после удара
 
   // Текстовые объекты для отображения жизней и очков
@@ -33,6 +34,7 @@ export class Player {
     this.setupControls();
     this.createUI();
     this.lastBonusLifeScore = 0;
+    console.log(this.isDead);
   }
 
   private setupControls(): void {

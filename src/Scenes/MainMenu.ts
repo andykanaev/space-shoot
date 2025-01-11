@@ -114,7 +114,7 @@ export class MainMenuScene extends Scene {
     this.createGame();
   }
 
-  update(time: number, delta: number): void {
+  update(time: number): void {
     if (this.isGameOver) return;
 
     this.background.update();

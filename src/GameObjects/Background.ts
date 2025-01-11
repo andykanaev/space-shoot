@@ -56,7 +56,7 @@ export class Background {
         }
         previousSpriteNumber = spriteNumber;
 
-        const sprite: GameObjects.Sprite = this.background
+        this.background
           .create(
             x * this.spriteWidth,
             y * this.spriteHeight,

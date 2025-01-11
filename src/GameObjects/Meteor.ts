@@ -3,7 +3,7 @@ import { Player } from "./Player";
 
 export class Meteor {
   private scene: Scene;
-  public sprite: Phaser.GameObjects.Rectangle;
+  public sprite!: Phaser.GameObjects.Rectangle;
   private speed: number = 3;
   private uiPanelHeight: number;
   private player: Player;

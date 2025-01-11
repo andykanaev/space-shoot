@@ -2,11 +2,13 @@ import { Scene } from "phaser";
 
 export class Bullet {
   private scene: Scene;
-  private sprite: Phaser.GameObjects.Rectangle;
+  public sprite: Phaser.GameObjects.Rectangle;
   private speed: number = 5;
 
   constructor(scene: Scene, x: number, y: number) {
     this.scene = scene;
+    console.log(this.scene);
+
     this.sprite = scene.add.rectangle(x, y, 4, 12, 0xffff00);
   }
 
@@ -25,5 +27,9 @@ export class Bullet {
     if (this.sprite) {
       this.sprite.destroy();
     }
+  }
+
+  public getBounds(): Phaser.Geom.Rectangle {
+    return this.sprite.getBounds();
   }
 }
